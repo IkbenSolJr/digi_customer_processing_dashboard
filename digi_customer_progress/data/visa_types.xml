@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Australia Visa Types -->
+        <record id="visa_type_482" model="digi.visa.type">
+            <field name="name">Temporary Skill Shortage Visa</field>
+            <field name="code">482</field>
+            <field name="description">Allows skilled workers to come to Australia to work in an occupation on the skilled occupation list for an approved sponsor for up to four years.</field>
+            <field name="country_id" ref="base.au"/>
+            <field name="category">temporary</field>
+            <field name="duration_months">48</field>
+            <field name="renewable">True</field>
+            <field name="processing_time_weeks">12</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">True</field>
+            <field name="min_age">18</field>
+            <field name="max_age">45</field>
+            <field name="color">3</field>
+        </record>
+
+        <record id="visa_type_500" model="digi.visa.type">
+            <field name="name">Student Visa</field>
+            <field name="code">500</field>
+            <field name="description">Allows students to study full-time in a registered course in Australia.</field>
+            <field name="country_id" ref="base.au"/>
+            <field name="category">student</field>
+            <field name="duration_months">60</field>
+            <field name="renewable">True</field>
+            <field name="processing_time_weeks">8</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">False</field>
+            <field name="min_age">6</field>
+            <field name="max_age">0</field>
+            <field name="color">5</field>
+        </record>
+
+        <record id="visa_type_407" model="digi.visa.type">
+            <field name="name">Training Visa</field>
+            <field name="code">407</field>
+            <field name="description">Allows people to participate in workplace-based training, professional development, or observation for up to 2 years.</field>
+            <field name="country_id" ref="base.au"/>
+            <field name="category">training</field>
+            <field name="duration_months">24</field>
+            <field name="renewable">False</field>
+            <field name="processing_time_weeks">6</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">False</field>
+            <field name="min_age">18</field>
+            <field name="max_age">0</field>
+            <field name="color">7</field>
+        </record>
+
+        <record id="visa_type_186" model="digi.visa.type">
+            <field name="name">Employer Nomination Scheme</field>
+            <field name="code">186</field>
+            <field name="description">Allows skilled workers nominated by an Australian employer to live and work in Australia permanently.</field>
+            <field name="country_id" ref="base.au"/>
+            <field name="category">permanent</field>
+            <field name="duration_months">0</field>
+            <field name="renewable">False</field>
+            <field name="processing_time_weeks">20</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">True</field>
+            <field name="min_age">18</field>
+            <field name="max_age">45</field>
+            <field name="color">1</field>
+        </record>
+
+        <!-- Canada Visa Types -->
+        <record id="visa_type_canada_work_permit" model="digi.visa.type">
+            <field name="name">Canada Work Permit</field>
+            <field name="code">WP</field>
+            <field name="description">Allows foreign nationals to work in Canada temporarily with a valid job offer from a Canadian employer.</field>
+            <field name="country_id" ref="base.ca"/>
+            <field name="category">work</field>
+            <field name="duration_months">24</field>
+            <field name="renewable">True</field>
+            <field name="processing_time_weeks">16</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">False</field>
+            <field name="min_age">18</field>
+            <field name="max_age">0</field>
+            <field name="color">9</field>
+        </record>
+
+        <record id="visa_type_canada_pr" model="digi.visa.type">
+            <field name="name">Canada Permanent Residence</field>
+            <field name="code">PR</field>
+            <field name="description">Allows individuals to live, work, and study anywhere in Canada permanently.</field>
+            <field name="country_id" ref="base.ca"/>
+            <field name="category">permanent</field>
+            <field name="duration_months">0</field>
+            <field name="renewable">False</field>
+            <field name="processing_time_weeks">24</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">True</field>
+            <field name="min_age">18</field>
+            <field name="max_age">47</field>
+            <field name="color">2</field>
+        </record>
+
+        <record id="visa_type_canada_student" model="digi.visa.type">
+            <field name="name">Canada Study Permit</field>
+            <field name="code">SP</field>
+            <field name="description">Allows foreign nationals to study at designated learning institutions in Canada.</field>
+            <field name="country_id" ref="base.ca"/>
+            <field name="category">student</field>
+            <field name="duration_months">48</field>
+            <field name="renewable">True</field>
+            <field name="processing_time_weeks">12</field>
+            <field name="english_required">True</field>
+            <field name="skills_assessment">False</field>
+            <field name="min_age">17</field>
+            <field name="max_age">0</field>
+            <field name="color">6</field>
+        </record>
+
+    </data>
+</odoo>
