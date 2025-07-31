@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Status Tags -->
+        <record id="tag_vip" model="digi.customer.tag">
+            <field name="name">VIP</field>
+            <field name="description">VIP customers with premium service</field>
+            <field name="category">status</field>
+            <field name="color">1</field>
+            <field name="sequence">10</field>
+        </record>
+
+        <record id="tag_new" model="digi.customer.tag">
+            <field name="name">Mới</field>
+            <field name="description">New customers recently signed up</field>
+            <field name="category">status</field>
+            <field name="color">5</field>
+            <field name="sequence">20</field>
+        </record>
+
+        <record id="tag_active" model="digi.customer.tag">
+            <field name="name">Đang Hoạt Động</field>
+            <field name="description">Active customers in progress</field>
+            <field name="category">status</field>
+            <field name="color">3</field>
+            <field name="sequence">30</field>
+        </record>
+
+        <!-- Priority Tags -->
+        <record id="tag_urgent" model="digi.customer.tag">
+            <field name="name">Khẩn Cấp</field>
+            <field name="description">Urgent cases requiring immediate attention</field>
+            <field name="category">priority</field>
+            <field name="color">2</field>
+            <field name="sequence">40</field>
+        </record>
+
+        <record id="tag_high_potential" model="digi.customer.tag">
+            <field name="name">Tiềm Năng</field>
+            <field name="description">High potential for successful visa outcome</field>
+            <field name="category">priority</field>
+            <field name="color">8</field>
+            <field name="sequence">50</field>
+        </record>
+
+        <!-- Customer Type Tags -->
+        <record id="tag_family" model="digi.customer.tag">
+            <field name="name">Gia Đình</field>
+            <field name="description">Family applications</field>
+            <field name="category">type</field>
+            <field name="color">6</field>
+            <field name="sequence">60</field>
+        </record>
+
+        <record id="tag_single" model="digi.customer.tag">
+            <field name="name">Độc Thân</field>
+            <field name="description">Single applicant</field>
+            <field name="category">type</field>
+            <field name="color">7</field>
+            <field name="sequence">70</field>
+        </record>
+
+        <record id="tag_experienced" model="digi.customer.tag">
+            <field name="name">Có Kinh Nghiệm</field>
+            <field name="description">Customers with relevant work experience</field>
+            <field name="category">type</field>
+            <field name="color">4</field>
+            <field name="sequence">80</field>
+        </record>
+
+        <!-- Source Tags -->
+        <record id="tag_referral" model="digi.customer.tag">
+            <field name="name">Giới Thiệu</field>
+            <field name="description">Customers from referrals</field>
+            <field name="category">source</field>
+            <field name="color">9</field>
+            <field name="sequence">90</field>
+        </record>
+
+        <record id="tag_online" model="digi.customer.tag">
+            <field name="name">Online</field>
+            <field name="description">Customers acquired through online channels</field>
+            <field name="category">source</field>
+            <field name="color">10</field>
+            <field name="sequence">100</field>
+        </record>
+
+        <record id="tag_walk_in" model="digi.customer.tag">
+            <field name="name">Walk-in</field>
+            <field name="description">Walk-in customers</field>
+            <field name="category">source</field>
+            <field name="color">11</field>
+            <field name="sequence">110</field>
+        </record>
+
+        <!-- Special Tags -->
+        <record id="tag_scholarship" model="digi.customer.tag">
+            <field name="name">Học Bổng</field>
+            <field name="description">Scholarship recipients</field>
+            <field name="category">special</field>
+            <field name="color">0</field>
+            <field name="sequence">120</field>
+        </record>
+
+        <record id="tag_government" model="digi.customer.tag">
+            <field name="name">Chính Phủ</field>
+            <field name="description">Government sponsored programs</field>
+            <field name="category">special</field>
+            <field name="color">1</field>
+            <field name="sequence">130</field>
+        </record>
+
+        <record id="tag_fast_track" model="digi.customer.tag">
+            <field name="name">Fast Track</field>
+            <field name="description">Fast track processing</field>
+            <field name="category">special</field>
+            <field name="color">2</field>
+            <field name="sequence">140</field>
+        </record>
+
+    </data>
+</odoo>

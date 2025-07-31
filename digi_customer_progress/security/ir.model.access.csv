@@ -1,0 +1,64 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+# Customer Record Access
+access_customer_record_user,Customer Record User,model_digi_customer_record,group_dss_user,1,1,0,0
+access_customer_record_advisor,Customer Record Advisor,model_digi_customer_record,group_dss_advisor,1,1,1,0
+access_customer_record_officer,Customer Record Officer,model_digi_customer_record,group_dss_officer,1,1,1,1
+access_customer_record_manager,Customer Record Manager,model_digi_customer_record,group_dss_manager,1,1,1,1
+access_customer_record_admin,Customer Record Admin,model_digi_customer_record,group_dss_admin,1,1,1,1
+
+# Training Progress Access
+access_training_progress_user,Training Progress User,model_digi_training_progress,group_dss_user,1,0,0,0
+access_training_progress_advisor,Training Progress Advisor,model_digi_training_progress,group_dss_advisor,1,1,1,0
+access_training_progress_officer,Training Progress Officer,model_digi_training_progress,group_dss_officer,1,1,1,1
+access_training_progress_manager,Training Progress Manager,model_digi_training_progress,group_dss_manager,1,1,1,1
+access_training_progress_admin,Training Progress Admin,model_digi_training_progress,group_dss_admin,1,1,1,1
+
+# English Training Access
+access_english_training_user,English Training User,model_digi_english_training,group_dss_user,1,1,0,0
+access_english_training_advisor,English Training Advisor,model_digi_english_training,group_dss_advisor,1,1,1,0
+access_english_training_officer,English Training Officer,model_digi_english_training,group_dss_officer,1,1,1,1
+access_english_training_manager,English Training Manager,model_digi_english_training,group_dss_manager,1,1,1,1
+access_english_training_admin,English Training Admin,model_digi_english_training,group_dss_admin,1,1,1,1
+
+# English Test Score Access
+access_english_test_score_user,English Test Score User,model_digi_english_test_score,group_dss_user,0,0,0,0
+access_english_test_score_advisor,English Test Score Advisor,model_digi_english_test_score,group_dss_advisor,1,1,1,0
+access_english_test_score_officer,English Test Score Officer,model_digi_english_test_score,group_dss_officer,1,1,1,1
+access_english_test_score_manager,English Test Score Manager,model_digi_english_test_score,group_dss_manager,1,1,1,1
+access_english_test_score_admin,English Test Score Admin,model_digi_english_test_score,group_dss_admin,1,1,1,1
+
+# Visa Process Access - Restricted
+access_visa_process_user,Visa Process User,model_digi_visa_process,group_dss_user,0,0,0,0
+access_visa_process_advisor,Visa Process Advisor,model_digi_visa_process,group_dss_advisor,1,0,0,0
+access_visa_process_officer,Visa Process Officer,model_digi_visa_process,group_dss_officer,1,1,1,1
+access_visa_process_manager,Visa Process Manager,model_digi_visa_process,group_dss_manager,1,1,1,1
+access_visa_process_admin,Visa Process Admin,model_digi_visa_process,group_dss_admin,1,1,1,1
+
+# Visa Document Access
+access_visa_document_user,Visa Document User,model_digi_visa_document,group_dss_user,0,0,0,0
+access_visa_document_advisor,Visa Document Advisor,model_digi_visa_document,group_dss_advisor,1,0,0,0
+access_visa_document_officer,Visa Document Officer,model_digi_visa_document,group_dss_officer,1,1,1,1
+access_visa_document_manager,Visa Document Manager,model_digi_visa_document,group_dss_manager,1,1,1,1
+access_visa_document_admin,Visa Document Admin,model_digi_visa_document,group_dss_admin,1,1,1,1
+
+# Master Data Access - Visa Types
+access_visa_type_user,Visa Type User,model_digi_visa_type,group_dss_user,1,0,0,0
+access_visa_type_advisor,Visa Type Advisor,model_digi_visa_type,group_dss_advisor,1,0,0,0
+access_visa_type_officer,Visa Type Officer,model_digi_visa_type,group_dss_officer,1,0,0,0
+access_visa_type_manager,Visa Type Manager,model_digi_visa_type,group_dss_manager,1,1,1,1
+access_visa_type_admin,Visa Type Admin,model_digi_visa_type,group_dss_admin,1,1,1,1
+
+# Master Data Access - Customer Tags
+access_customer_tag_user,Customer Tag User,model_digi_customer_tag,group_dss_user,1,0,0,0
+access_customer_tag_advisor,Customer Tag Advisor,model_digi_customer_tag,group_dss_advisor,1,1,0,0
+access_customer_tag_officer,Customer Tag Officer,model_digi_customer_tag,group_dss_officer,1,1,1,0
+access_customer_tag_manager,Customer Tag Manager,model_digi_customer_tag,group_dss_manager,1,1,1,1
+access_customer_tag_admin,Customer Tag Admin,model_digi_customer_tag,group_dss_admin,1,1,1,1
+
+# Master Data Access - Job Categories
+access_job_category_user,Job Category User,model_digi_job_category,group_dss_user,1,0,0,0
+access_job_category_advisor,Job Category Advisor,model_digi_job_category,group_dss_advisor,1,0,0,0
+access_job_category_officer,Job Category Officer,model_digi_job_category,group_dss_officer,1,0,0,0
+access_job_category_manager,Job Category Manager,model_digi_job_category,group_dss_manager,1,1,1,1
+access_job_category_admin,Job Category Admin,model_digi_job_category,group_dss_admin,1,1,1,1

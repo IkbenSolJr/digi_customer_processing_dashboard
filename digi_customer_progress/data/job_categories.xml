@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Cooking and Food Service -->
+        <record id="job_category_cooking" model="digi.job.category">
+            <field name="name">Nấu Ăn</field>
+            <field name="code">COOK</field>
+            <field name="description">Commercial cooking, food preparation, and kitchen management</field>
+            <field name="theory_hours">60</field>
+            <field name="practical_hours">200</field>
+            <field name="video_hours">40</field>
+            <field name="internship_weeks">8</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">TRA (Trades Recognition Australia)</field>
+            <field name="assessment_duration_weeks">16</field>
+            <field name="sequence">10</field>
+            <field name="color">3</field>
+        </record>
+
+        <!-- Hospitality -->
+        <record id="job_category_hospitality" model="digi.job.category">
+            <field name="name">Khách Sạn</field>
+            <field name="code">HOSP</field>
+            <field name="description">Hotel management, front office, and hospitality services</field>
+            <field name="theory_hours">80</field>
+            <field name="practical_hours">160</field>
+            <field name="video_hours">30</field>
+            <field name="internship_weeks">6</field>
+            <field name="english_level_required">intermediate</field>
+            <field name="min_pte_score">50</field>
+            <field name="min_ielts_score">6.0</field>
+            <field name="assessing_authority">VETASSESS</field>
+            <field name="assessment_duration_weeks">12</field>
+            <field name="sequence">20</field>
+            <field name="color">5</field>
+        </record>
+
+        <!-- Beauty and Hairdressing -->
+        <record id="job_category_beauty" model="digi.job.category">
+            <field name="name">Làm Đẹp</field>
+            <field name="code">BEAUTY</field>
+            <field name="description">Beauty therapy, hairdressing, and personal care services</field>
+            <field name="theory_hours">40</field>
+            <field name="practical_hours">180</field>
+            <field name="video_hours">20</field>
+            <field name="internship_weeks">4</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">TRA (Trades Recognition Australia)</field>
+            <field name="assessment_duration_weeks">12</field>
+            <field name="sequence">30</field>
+            <field name="color">8</field>
+        </record>
+
+        <!-- Construction -->
+        <record id="job_category_construction" model="digi.job.category">
+            <field name="name">Xây Dựng</field>
+            <field name="code">CONST</field>
+            <field name="description">Building construction, carpentry, and related trades</field>
+            <field name="theory_hours">100</field>
+            <field name="practical_hours">300</field>
+            <field name="video_hours">50</field>
+            <field name="internship_weeks">12</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">TRA (Trades Recognition Australia)</field>
+            <field name="assessment_duration_weeks">20</field>
+            <field name="sequence">40</field>
+            <field name="color">1</field>
+        </record>
+
+        <!-- Automotive -->
+        <record id="job_category_automotive" model="digi.job.category">
+            <field name="name">Ô Tô</field>
+            <field name="code">AUTO</field>
+            <field name="description">Automotive repair, maintenance, and mechanical services</field>
+            <field name="theory_hours">80</field>
+            <field name="practical_hours">240</field>
+            <field name="video_hours">40</field>
+            <field name="internship_weeks">10</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">TRA (Trades Recognition Australia)</field>
+            <field name="assessment_duration_weeks">16</field>
+            <field name="sequence">50</field>
+            <field name="color">4</field>
+        </record>
+
+        <!-- Healthcare -->
+        <record id="job_category_healthcare" model="digi.job.category">
+            <field name="name">Chăm Sóc Sức Khỏe</field>
+            <field name="code">HEALTH</field>
+            <field name="description">Healthcare support, nursing assistance, and medical services</field>
+            <field name="theory_hours">120</field>
+            <field name="practical_hours">200</field>
+            <field name="video_hours">30</field>
+            <field name="internship_weeks">8</field>
+            <field name="english_level_required">intermediate</field>
+            <field name="min_pte_score">50</field>
+            <field name="min_ielts_score">6.5</field>
+            <field name="assessing_authority">ANMAC/AHPRA</field>
+            <field name="assessment_duration_weeks">24</field>
+            <field name="sequence">60</field>
+            <field name="color">2</field>
+        </record>
+
+        <!-- Aged Care -->
+        <record id="job_category_aged_care" model="digi.job.category">
+            <field name="name">Aged Care</field>
+            <field name="code">AGED</field>
+            <field name="description">Aged care services, elderly support, and personal care</field>
+            <field name="theory_hours">100</field>
+            <field name="practical_hours">160</field>
+            <field name="video_hours">25</field>
+            <field name="internship_weeks">6</field>
+            <field name="english_level_required">intermediate</field>
+            <field name="min_pte_score">50</field>
+            <field name="min_ielts_score">6.0</field>
+            <field name="assessing_authority">VETASSESS</field>
+            <field name="assessment_duration_weeks">16</field>
+            <field name="sequence">70</field>
+            <field name="color">6</field>
+        </record>
+
+        <!-- Agriculture -->
+        <record id="job_category_agriculture" model="digi.job.category">
+            <field name="name">Nông Nghiệp</field>
+            <field name="code">AGRI</field>
+            <field name="description">Agricultural work, farming, and rural services</field>
+            <field name="theory_hours">60</field>
+            <field name="practical_hours">220</field>
+            <field name="video_hours">30</field>
+            <field name="internship_weeks">8</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">VETASSESS</field>
+            <field name="assessment_duration_weeks">12</field>
+            <field name="sequence">80</field>
+            <field name="color">7</field>
+        </record>
+
+        <!-- Meat Processing -->
+        <record id="job_category_meat_processing" model="digi.job.category">
+            <field name="name">Chế Biến Thịt</field>
+            <field name="code">MEAT</field>
+            <field name="description">Meat processing, butchery, and food manufacturing</field>
+            <field name="theory_hours">50</field>
+            <field name="practical_hours">200</field>
+            <field name="video_hours">25</field>
+            <field name="internship_weeks">6</field>
+            <field name="english_level_required">foundation</field>
+            <field name="min_pte_score">36</field>
+            <field name="min_ielts_score">5.5</field>
+            <field name="assessing_authority">TRA (Trades Recognition Australia)</field>
+            <field name="assessment_duration_weeks">14</field>
+            <field name="sequence">90</field>
+            <field name="color">9</field>
+        </record>
+
+        <!-- Information Technology -->
+        <record id="job_category_it" model="digi.job.category">
+            <field name="name">IT</field>
+            <field name="code">IT</field>
+            <field name="description">Information technology, software development, and technical support</field>
+            <field name="theory_hours">120</field>
+            <field name="practical_hours">100</field>
+            <field name="video_hours">40</field>
+            <field name="internship_weeks">4</field>
+            <field name="english_level_required">advanced</field>
+            <field name="min_pte_score">65</field>
+            <field name="min_ielts_score">7.0</field>
+            <field name="assessing_authority">ACS (Australian Computer Society)</field>
+            <field name="assessment_duration_weeks">12</field>
+            <field name="sequence">100</field>
+            <field name="color">10</field>
+        </record>
+
+    </data>
+</odoo>
